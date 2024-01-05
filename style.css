@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7e1e1;
+}
+
+.signin {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(red, green, blue)
+}
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  margin-bottom: 25px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #a3a0a0;
+  border-radius: 50px;
+}
+
+.signin-btn {
+  width: 70%;
+  padding: 10px;
+  border: gray;
+  border-radius: 70px;
+  background-color: #2b4272;
+  color: #cfc6c6;
+  margin-bottom: 5px;
+}
+
+.signin-btn:hover {
+  background-color: #405c90;
+}
+
+.alt-signin {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.social-btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.google-btn,
+.apple-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.google-btn {
+  background-color: #DB4437;
+  color: #fff;
+}
+
+.google-btn:hover {
+  background-color: #d33228;
+}
+
+.apple-btn {
+  background-color: #000;
+  color: #fff;
+}
+
+.apple-btn:hover {
+  background-color: #222;
+}
+
+.forgot-password {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.forgot-password a {
+  text-decoration: none;
+  color: #0077b5;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
